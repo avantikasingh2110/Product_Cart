@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Playwrite GB S", serif;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background: linear-gradient(90deg, hsla(27, 58%, 70%, 1) 0%, hsla(22, 57%, 78%, 1) 50%, hsla(26, 72%, 69%, 1) 100%);
+
+    form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        #product_name {
+            padding: 0.5rem;
+            margin: 0.5rem;
+            border-radius: 5px;
+        }
+
+        #price {
+            padding: 0.5rem;
+            margin: 0.5rem;
+            border-radius: 5px;
+        }
+
+        #add_product {
+            padding: 0.5rem 1.5rem;
+            margin: 0.5rem;
+            background-color: rgb(98, 29, 5);
+            color: white;
+            border-radius: 5px;
+        }
+    }
+
+    #main {
+        width: 100%;
+        height: auto;
+        font-family: "Playwrite GB S", serif;
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        flex-wrap: wrap;
+
+        #products {
+            width: 35%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid rgb(167, 71, 8);
+            border-radius: 10px;
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+
+        #cart {
+            width: 35%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            border: 2px solid rgb(167, 71, 8);
+            border-radius: 10px;
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+
+    } 
+}
